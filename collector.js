@@ -1,3 +1,4 @@
+let coins = require("./coins")
 // your code 
 // require the coins array
 
@@ -22,5 +23,7 @@ function coinCollector(coins) {
 
 coinCollector(coins);
 
+module.exports = coinCollector;
 // your code
 // export the coinCollector function
+
